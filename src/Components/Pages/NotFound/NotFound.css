@@ -1,0 +1,32 @@
+.PageNotFound {
+    margin: auto;
+    text-align: center;
+    padding: 10vmax;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .PageNotFound > svg {
+    font-size: 7vmax;
+    color: var(--first-color);
+    padding: 5px;
+    margin: 10px;
+  }
+  .PageNotFound > p {
+    font-size: 2vmax;
+  }
+ 
+  
+  @media screen and (max-width: 600px) {
+   
+  
+    .PageNotFound > svg {
+      font-size: 20vw;
+    }
+    .PageNotFound > p {
+      margin: 2vmax;
+      font-size: 5vw;
+    }
+  }
