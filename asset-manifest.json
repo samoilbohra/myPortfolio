@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.27bbe9e9.css",
+    "main.js": "/myPortfolio/static/js/main.ecfd06b8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/myPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Vercel1.png": "/myPortfolio/static/media/Vercel1.495be1c235104ed747c1.png",
+    "static/media/Ecommerce1.png": "/myPortfolio/static/media/Ecommerce1.a18c3ad5762c9c0a2a70.png",
+    "static/media/CV.pdf": "/myPortfolio/static/media/CV.851d12c2c4f26d58e29b.pdf",
+    "static/media/Ecommerce2.png": "/myPortfolio/static/media/Ecommerce2.75f6ddd822d7160b0ccc.png",
+    "static/media/Ecommerce3.png": "/myPortfolio/static/media/Ecommerce3.ff9ffa53e5b7e0e72180.png",
+    "static/media/Ecommerce4.png": "/myPortfolio/static/media/Ecommerce4.7527975338a586ac934e.png",
+    "static/media/samoil.jpg": "/myPortfolio/static/media/samoil.251fc51c8498ff1411b1.jpg",
+    "static/media/Ecommerce11.png": "/myPortfolio/static/media/Ecommerce11.0b85c58839945c6f51a4.png",
+    "static/media/Ecommerce5.png": "/myPortfolio/static/media/Ecommerce5.6e9ef3729389392898fc.png",
+    "static/media/Ecommerce9.png": "/myPortfolio/static/media/Ecommerce9.009cebe048f3e8b786ea.png",
+    "static/media/NoteKeeper2.png": "/myPortfolio/static/media/NoteKeeper2.21c16414b18a2cc3f37a.png",
+    "static/media/TextUtils.png": "/myPortfolio/static/media/TextUtils.ec296db1a3d835766eba.png",
+    "static/media/TextUtils2.png": "/myPortfolio/static/media/TextUtils2.7c8c9cc58304a1e04aa0.png",
+    "static/media/NoteKeeper3.png": "/myPortfolio/static/media/NoteKeeper3.3641da1012f08ec18b4c.png",
+    "static/media/samoil1.jpg": "/myPortfolio/static/media/samoil1.0a3fd938a723d8b05cab.jpg",
+    "static/media/NoteKeeper5.png": "/myPortfolio/static/media/NoteKeeper5.2f0ea072981c3d348547.png",
+    "static/media/NoteKeeper1.png": "/myPortfolio/static/media/NoteKeeper1.4f50509d5a03570df1d6.png",
+    "static/media/Ecommerce8.png": "/myPortfolio/static/media/Ecommerce8.1ef9de1debb441427fd3.png",
+    "static/media/NoteKeeper4.png": "/myPortfolio/static/media/NoteKeeper4.f85c8365957d14e9f6f2.png",
+    "static/media/NewsApp.png": "/myPortfolio/static/media/NewsApp.6fec9f5492e39c41063a.png",
+    "static/media/Ecommerce10.png": "/myPortfolio/static/media/Ecommerce10.012878b4ae9e854c125f.png",
+    "static/media/SimonGame1.png": "/myPortfolio/static/media/SimonGame1.657f69566d239c0bba8f.png",
+    "static/media/SimonGame2.png": "/myPortfolio/static/media/SimonGame2.45870c6dfb83777aaf6d.png",
+    "static/media/Ecommerce7.png": "/myPortfolio/static/media/Ecommerce7.781995014a3148181473.png",
+    "static/media/Ecommerce6.png": "/myPortfolio/static/media/Ecommerce6.b9f6d38f87f9fc8a8992.png",
+    "index.html": "/myPortfolio/index.html",
+    "main.27bbe9e9.css.map": "/myPortfolio/static/css/main.27bbe9e9.css.map",
+    "main.ecfd06b8.js.map": "/myPortfolio/static/js/main.ecfd06b8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/myPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27bbe9e9.css",
+    "static/js/main.ecfd06b8.js"
+  ]
+}
