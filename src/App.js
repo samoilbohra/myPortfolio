@@ -12,8 +12,7 @@ import NotFound from './Components/Pages/NotFound/NotFound.js';
 const App = () => {
   
   return (
-      
-     <BrowserRouter>
+      <>
      <Navbar/>
     <Routes>
       <Route path="/" element={< Home/>} />
@@ -24,9 +23,8 @@ const App = () => {
       <Route path="/404" element={<NotFound />} />
           	<Route path="*" element={<Navigate to="/404" />} />
     </Routes>
-  </BrowserRouter>
       
-    
+    </>
   )
 }
 
