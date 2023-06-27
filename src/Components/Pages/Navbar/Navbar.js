@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import {
-    FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode,
+    FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, 
 } from 'react-icons/fa';
 import './Navbar.css'
 

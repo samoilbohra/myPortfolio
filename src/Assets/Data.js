@@ -3,10 +3,10 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
-  FaGit,
+   
   FaGithub,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import {  FiExternalLink } from 'react-icons/fi';
 
 import Vercel1 from './SitePhoto/Vercel1.png'
 import SimonGame1 from './SitePhoto/SimonGame1.png'

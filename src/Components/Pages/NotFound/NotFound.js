@@ -14,7 +14,7 @@ const NotFound = () => {
     <Metadata pageTitle={"Samoil - Not Found"}/>
     <GoAlert/>
       <h1>Page Not Found !! </h1>
-      <Link to={'/contact'}  className='button'>Home{`    `}
+      <Link to={'/'}  className='button'>Home{`    `}
          <span className='buttonIcon' ><FaArrowRight/></span>
          </Link>
     </div>

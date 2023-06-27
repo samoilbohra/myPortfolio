@@ -45,6 +45,7 @@ const Contact = () => {
       setMessage("")
       alert.success("SUCCESSFULLY SUBMITTED . Will Contact You Soon!!")
       setLoading(false)
+      
     })
       .catch(err => {
         alert.error(err);
@@ -68,15 +69,15 @@ const Contact = () => {
             , creative Ideas and Opportunity </p>
 
           <div className='contactInfo'>
-            <div className='infoItem'>
-              <FaEnvelopeOpen className='infoIcon' onClick={() => window.location = 'mailto:samoilbarda52@gmail.com'} />
+            <div className='infoItem' onClick={() => window.location = 'mailto:samoilbarda52@gmail.com'}>
+              <FaEnvelopeOpen className='infoIcon'  />
               <div>
                 <span className='infoTitle'>Mail me : </span>
                 <h4 className='infoDescription'>samoilbarda52@gmail.com</h4>
               </div>
             </div>
-            <div className='infoItem'>
-              <FaPhoneSquareAlt className='infoIcon' href="tel:+919993523171" />
+            <div className='infoItem' onClick={() => window.location = 'tel:+919993523171'}   >
+              <FaPhoneSquareAlt className='infoIcon'  />
               <div>
                 <span className='infoTitle'>Call me : </span>
                 <h4 className='infoDescription'>+919993523171</h4>
@@ -85,10 +86,10 @@ const Contact = () => {
           </div>
 
           <div className='contactSocials'>
-            <a className='contactSocialLink' target='blank' href='https://github.com/samoilbohra'><FaGithub /></a>
-            <a className='contactSocialLink' target='blank' href='linkdin.com'><FaLinkedin /></a>
-            <a className='contactSocialLink' target='blank' href='instagram.com/samoil_barda_'><FaInstagram /></a>
-            <a className='contactSocialLink' target='blank' href='twitter.com'><FaTwitter /></a>
+            <a className='contactSocialLink' target='_blank' href='https://github.com/samoilbohra'><FaGithub /></a>
+            <a className='contactSocialLink' target='_blank' href='https://www.linkedin.com/in/samoil-bohra-1ba083231/?trk=public_profile_browsemap&originalSubdomain=in'><FaLinkedin /></a>
+            <a className='contactSocialLink' target='_blank' href='https://www.instagram.com/samoil_barda_/'><FaInstagram /></a>
+            <a className='contactSocialLink' target='_blank' href='https://twitter.com/samoil_barda_'><FaTwitter /></a>
           </div>
 
 

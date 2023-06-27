@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
-import Samoil from '../Home/samoil.jpg'
-import Samoil1 from '../Home/samoil1.jpg'
 import Carousel from 'react-material-ui-carousel'
-import { Navigate } from 'react-router-dom'
-import CloseButton from '../../../Assets/closebutton.jpg'
+import { AiFillCloseCircle } from 'react-icons/ai'
 
 
 const PorfolioItem = ({ img, title, details }) => {
@@ -22,14 +19,14 @@ const PorfolioItem = ({ img, title, details }) => {
             {
                 modal && <div className='portfolioModal'>
                     <div className='portfolioModalContent'>
-                    <img src={CloseButton}   className='modalClose'  />
+                    <AiFillCloseCircle className='modalClose' />
                         <h3 className='modalTitle'>{title}</h3>
                         <ul className='modalList grid'>
                             {details.map(({ icon, title, desc ,link }, index) => {
                                 return (
                                     <li className='modalItem' key={index}  > 
                                         <span className='itemIcon'>{icon}</span>
-                                       <a href={link && desc} target='blank'>  <div style={{cursor : link && "pointer"}}  onclick={`location.href=${"pornhub.com"};`} >
+                                       <a href={link && desc} target='_blank'>  <div style={{cursor : link && "pointer"}}   >
                                             <span className='itemTitle'>{title}</span>
                                             <span className='itemDescription'>{desc}</span>
                                         </div></a>
