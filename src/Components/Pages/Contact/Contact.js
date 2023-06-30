@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { FaEnvelopeOpen, FaPhoneSquareAlt, FaInstagram, FaGithub, FaLinkedin, FaTwitter, FaRegHandshake } from 'react-icons/fa'
+import { FaEnvelopeOpen, FaPhoneSquareAlt, FaInstagram, FaGithub, FaLinkedin, FaTwitter, FaRegHandshake , FaWhatsapp } from 'react-icons/fa'
 import { FiSend } from 'react-icons/fi'
 import './Contact.css'
 import { useAlert } from 'react-alert'
@@ -53,7 +53,6 @@ const Contact = () => {
       })
   }
 
-
   return (
     <section className='contact section'>
     <Metadata pageTitle={"Samoil - Contact"}/>
@@ -90,6 +89,7 @@ const Contact = () => {
             <a className='contactSocialLink' target='_blank' href='https://www.linkedin.com/in/samoil-bohra-1ba083231/?trk=public_profile_browsemap&originalSubdomain=in'><FaLinkedin /></a>
             <a className='contactSocialLink' target='_blank' href='https://www.instagram.com/samoil_barda_/'><FaInstagram /></a>
             <a className='contactSocialLink' target='_blank' href='https://twitter.com/samoil_barda_'><FaTwitter /></a>
+            <a className='contactSocialLink' target='_blank' href="https://wa.me/+919993523171?text=Hello Samoil Bohra. I am ..."><FaWhatsapp /></a>
           </div>
 
 
