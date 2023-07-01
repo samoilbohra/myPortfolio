@@ -26,6 +26,10 @@ font-size: var(--small-font-size);
     font-weight: var(--weight-600);
 
 }
+.click:hover{
+    transform: scale(1.05);
+    
+}
 .statsBox{
     height: 200px;
     border:  1px solid var(--border-color);

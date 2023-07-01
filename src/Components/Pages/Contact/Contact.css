@@ -27,6 +27,11 @@
 
 }
 
+.infoItem:hover .infoIcon{
+    transform: scale(1.1);
+
+}
+
 
 .contactInfo .infoIcon{
     color: var(--first-color);

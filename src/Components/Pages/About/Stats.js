@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react'
+import {  useNavigate } from 'react-router-dom'
 
 
 const Stats = () => {
+  const navigate = useNavigate()
   return (
     <Fragment>
       <div className='statsBox'>
@@ -9,8 +11,8 @@ const Stats = () => {
         <p className='statsTitle'>years of experience<br/> in web development</p>
       </div>
 
-      <div className='statsBox'>
-        <h3 className='statsNo'>10+</h3>
+      <div className='statsBox' onClick={()=>{navigate('/projects')}} style={{cursor:'pointer'}}>
+        <h3 className='statsNo' >10+</h3>
         <p className='statsTitle'>Completed <br /> Projects</p>
       </div>
 

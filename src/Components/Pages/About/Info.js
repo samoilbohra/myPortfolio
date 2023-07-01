@@ -22,11 +22,11 @@ const Info = () => {
         <span className='infoTitle'>Address : </span>
         <span className='infoDescription'>Indore ,India</span>
       </li>
-      <li className='infoItem'>
-        <span className='infoTitle'>Phone : </span>
+      <li className='infoItem click' onClick={() => window.location = 'tel:+919993523171'} style={{cursor:'pointer'}}>
+        <span className='infoTitle' >Phone : </span>
         <span className='infoDescription'>+919993523171</span>
       </li>
-      <li className='infoItem'>
+      <li className='infoItem click'  onClick={() => window.location = 'mailto:samoilbarda52@gmail.com'} style={{cursor:'pointer'}}>
         <span className='infoTitle'>Email : </span>
         <span className='infoDescription'>samoilbarda52@gmail.com</span>
       </li>
